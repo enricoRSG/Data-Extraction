@@ -1,0 +1,153 @@
+{
+  "source_file": "sales_demo.pdf",
+  "source_sha256": "be9315151b52a4995b964a665a9de7391b7aa6162eb9b2391d3f53d461f812f9",
+  "source_location": "Page 1, table 1",
+  "operations": {
+    "trim": true,
+    "drop_duplicates": true,
+    "drop_empty": false,
+    "numeric_columns": [],
+    "locale": "Italian",
+    "selected_columns": [
+      "Order ID",
+      "Customer",
+      "Region",
+      "Amount EUR"
+    ],
+    "percent_rule": "12,5% -> 0.125",
+    "duplicate_rule": "All columns, before column selection"
+  },
+  "before": {
+    "rows": 7,
+    "columns": 4,
+    "duplicate_rows": 1,
+    "missing_cells": 1,
+    "column_profile": [
+      {
+        "column": "Order ID",
+        "missing": 0,
+        "unique_nonempty": 6,
+        "numeric_count": 7,
+        "min": 1.0,
+        "max": 6.0,
+        "mean": 3.857142857142857,
+        "sum": 27.0
+      },
+      {
+        "column": "Customer",
+        "missing": 0,
+        "unique_nonempty": 6,
+        "numeric_count": 0
+      },
+      {
+        "column": "Region",
+        "missing": 1,
+        "unique_nonempty": 4,
+        "numeric_count": 0
+      },
+      {
+        "column": "Amount EUR",
+        "missing": 0,
+        "unique_nonempty": 6,
+        "numeric_count": 7,
+        "min": 250.0,
+        "max": 650.0,
+        "mean": 500.0,
+        "sum": 3500.0
+      }
+    ]
+  },
+  "after": {
+    "rows": 6,
+    "columns": 4,
+    "duplicate_rows": 0,
+    "missing_cells": 1,
+    "column_profile": [
+      {
+        "column": "Order ID",
+        "missing": 0,
+        "unique_nonempty": 6,
+        "numeric_count": 6,
+        "min": 1.0,
+        "max": 6.0,
+        "mean": 3.5,
+        "sum": 21.0
+      },
+      {
+        "column": "Customer",
+        "missing": 0,
+        "unique_nonempty": 6,
+        "numeric_count": 0
+      },
+      {
+        "column": "Region",
+        "missing": 1,
+        "unique_nonempty": 4,
+        "numeric_count": 0
+      },
+      {
+        "column": "Amount EUR",
+        "missing": 0,
+        "unique_nonempty": 6,
+        "numeric_count": 6,
+        "min": 250.0,
+        "max": 650.0,
+        "mean": 475.0,
+        "sum": 2850.0
+      }
+    ]
+  },
+  "notes": [
+    "PDF extraction requires comparison with source.",
+    "Invalid numeric values remain text and are listed in Conversion issues.",
+    "Percentages are decimal fractions. Numeric columns are selected explicitly.",
+    "Statistics use converted values and do not infer meaning of identifiers.",
+    "Source row is the extracted data row within the source table, not a physical PDF line."
+  ],
+  "conversion_issues": [],
+  "provenance": [
+    {
+      "source_file": "sales_demo.pdf",
+      "sha256": "be9315151b52a4995b964a665a9de7391b7aa6162eb9b2391d3f53d461f812f9",
+      "location": "Page 1, table 1",
+      "source_data_row": 1,
+      "output_data_row": 1
+    },
+    {
+      "source_file": "sales_demo.pdf",
+      "sha256": "be9315151b52a4995b964a665a9de7391b7aa6162eb9b2391d3f53d461f812f9",
+      "location": "Page 1, table 1",
+      "source_data_row": 2,
+      "output_data_row": 2
+    },
+    {
+      "source_file": "sales_demo.pdf",
+      "sha256": "be9315151b52a4995b964a665a9de7391b7aa6162eb9b2391d3f53d461f812f9",
+      "location": "Page 1, table 1",
+      "source_data_row": 3,
+      "output_data_row": 3
+    },
+    {
+      "source_file": "sales_demo.pdf",
+      "sha256": "be9315151b52a4995b964a665a9de7391b7aa6162eb9b2391d3f53d461f812f9",
+      "location": "Page 1, table 1",
+      "source_data_row": 4,
+      "output_data_row": 4
+    },
+    {
+      "source_file": "sales_demo.pdf",
+      "sha256": "be9315151b52a4995b964a665a9de7391b7aa6162eb9b2391d3f53d461f812f9",
+      "location": "Page 1, table 1",
+      "source_data_row": 5,
+      "output_data_row": 5
+    },
+    {
+      "source_file": "sales_demo.pdf",
+      "sha256": "be9315151b52a4995b964a665a9de7391b7aa6162eb9b2391d3f53d461f812f9",
+      "location": "Page 1, table 1",
+      "source_data_row": 6,
+      "output_data_row": 6
+    }
+  ],
+  "repeated_headers_removed": 0
+}

@@ -1,0 +1,41 @@
+DATA EXTRACTION v2.0 - ENRICO RASPA
+
+AVVIO WINDOWS
+1. Estrai tutto lo ZIP in una cartella.
+2. Installa Python 3.10 o successivo, abilitando Add Python to PATH.
+3. Apri start_windows.bat. La prima installazione richiede internet.
+4. Lascia aperta la finestra del terminale mentre usi il programma nel browser.
+
+PROVA RAPIDA
+- Sales register: seleziona Remove duplicate rows. Da 7 righe passi a 6.
+- Contacts: elimina il doppione; il programma segnala l'email mancante.
+- Product price list: scegli Price EUR e Discount in Convert these columns;
+  lascia Italian. 1.250,50 diventa 1250.50 e 12,5% diventa 0.125.
+- Il pulsante Download converted data esporta Excel, CSV o JSON.
+- L'Excel contiene dati, controlli, statistiche, operazioni, provenienza e conversioni da rivedere.
+
+PIU' PAGINE
+Carica examples/sales_multipage.pdf. Attiva Merge selected tables e seleziona
+entrambe le tabelle. Scegli Amount EUR per la conversione italiana.
+Controlla le pagine nel riquadro a sinistra: quattro righe, totale 2.750,50 euro.
+Unisci solo tabelle dello stesso elenco, con identiche colonne.
+
+PIU' FILE
+Seleziona Batch conversion, carica i file e premi Process batch.
+Scarica lo ZIP. manifest.json elenca successi ed eventuali errori.
+Ogni tabella resta separata. Le conversioni numeriche richiedono la revisione
+nel percorso Single file. Non vengono applicate di nascosto all'intero lotto.
+
+UPWORK
+portfolio/cover.png: copertina.
+portfolio/UPWORK_EN.txt: titolo, ruolo, descrizione e competenze.
+examples/: PDF dimostrativi e risultati Excel con controlli.
+Il progetto dimostra le funzioni del software su dati fittizi.
+
+LIMITI
+PDF digitali con tabelle bordate; niente OCR/scansioni. Controlla sempre il
+risultato contro l'originale. I risultati delle formule Excel devono essere
+stati salvati dal programma di origine. Il programma non mantiene l'impaginazione.
+Le colonne numeriche si scelgono: lascia esclusi codici, telefoni e identificativi.
+Gli errori di conversione mantengono il testo originale e sono segnalati.
+I limiti completi sono nel README.md. Nessun abbonamento o chiave API richiesti.

@@ -1,0 +1,7 @@
+﻿Order ID,Customer,Region,Amount EUR
+001,Alfa,North,450
+002,Beta,South,620
+003,Gamma,North,380
+004,Delta,,500
+005,Epsilon,West,250
+006,Zeta,East,650

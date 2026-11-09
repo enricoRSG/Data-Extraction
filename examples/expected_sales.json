@@ -1,0 +1,38 @@
+[
+  {
+    "Order ID":"001",
+    "Customer":"Alfa",
+    "Region":"North",
+    "Amount EUR":"450"
+  },
+  {
+    "Order ID":"002",
+    "Customer":"Beta",
+    "Region":"South",
+    "Amount EUR":"620"
+  },
+  {
+    "Order ID":"003",
+    "Customer":"Gamma",
+    "Region":"North",
+    "Amount EUR":"380"
+  },
+  {
+    "Order ID":"004",
+    "Customer":"Delta",
+    "Region":"",
+    "Amount EUR":"500"
+  },
+  {
+    "Order ID":"005",
+    "Customer":"Epsilon",
+    "Region":"West",
+    "Amount EUR":"250"
+  },
+  {
+    "Order ID":"006",
+    "Customer":"Zeta",
+    "Region":"East",
+    "Amount EUR":"650"
+  }
+]

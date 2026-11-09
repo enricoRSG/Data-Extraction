@@ -1,0 +1,95 @@
+{
+  "source_file": "sales_demo.pdf",
+  "source_sha256": "be9315151b52a4995b964a665a9de7391b7aa6162eb9b2391d3f53d461f812f9",
+  "source_location": "Page 1, table 1",
+  "operations": {
+    "trim": true,
+    "drop_duplicates": true,
+    "drop_empty": true
+  },
+  "before": {
+    "rows": 7,
+    "columns": 4,
+    "duplicate_rows": 1,
+    "missing_cells": 1,
+    "column_profile": [
+      {
+        "column": "Order ID",
+        "missing": 0,
+        "unique_nonempty": 6,
+        "numeric_count": 7,
+        "min": 1.0,
+        "max": 6.0,
+        "mean": 3.857142857142857,
+        "sum": 27.0
+      },
+      {
+        "column": "Customer",
+        "missing": 0,
+        "unique_nonempty": 6,
+        "numeric_count": 0
+      },
+      {
+        "column": "Region",
+        "missing": 1,
+        "unique_nonempty": 4,
+        "numeric_count": 0
+      },
+      {
+        "column": "Amount EUR",
+        "missing": 0,
+        "unique_nonempty": 6,
+        "numeric_count": 7,
+        "min": 250.0,
+        "max": 650.0,
+        "mean": 500.0,
+        "sum": 3500.0
+      }
+    ]
+  },
+  "after": {
+    "rows": 6,
+    "columns": 4,
+    "duplicate_rows": 0,
+    "missing_cells": 1,
+    "column_profile": [
+      {
+        "column": "Order ID",
+        "missing": 0,
+        "unique_nonempty": 6,
+        "numeric_count": 6,
+        "min": 1.0,
+        "max": 6.0,
+        "mean": 3.5,
+        "sum": 21.0
+      },
+      {
+        "column": "Customer",
+        "missing": 0,
+        "unique_nonempty": 6,
+        "numeric_count": 0
+      },
+      {
+        "column": "Region",
+        "missing": 1,
+        "unique_nonempty": 4,
+        "numeric_count": 0
+      },
+      {
+        "column": "Amount EUR",
+        "missing": 0,
+        "unique_nonempty": 6,
+        "numeric_count": 6,
+        "min": 250.0,
+        "max": 650.0,
+        "mean": 475.0,
+        "sum": 2850.0
+      }
+    ]
+  },
+  "notes": [
+    "Missing includes empty or whitespace-only cells.",
+    "Numeric summaries use dot decimal notation; text is never silently converted.",
+    "PDF extraction must be checked against the source."
+  ]
+}

@@ -1,0 +1,25 @@
+PROJECT TITLE
+Data Extraction | PDF to Excel, CSV & JSON
+
+MY ROLE
+Python Developer | Data Extraction & Data Cleaning
+
+PROJECT DESCRIPTION
+I developed a local Python application to extract tables from digital PDFs and convert Excel, CSV and JSON files. It includes source previews, optional cleaning, multipage table merging, Italian/English number conversion and batch exports. Excel reports document data quality, applied operations and row-level source traceability. Synthetic examples cover sales records, contacts and product prices, with original PDFs and reviewed outputs. Built with Python, pandas, pdfplumber and Streamlit.
+
+SKILLS
+Data Extraction
+Python
+Data Cleaning
+Microsoft Excel
+PDF Conversion
+
+PORTFOLIO MEDIA
+Use cover.png. Add one original PDF with its matching *_reviewed.xlsx output.
+Contacts demonstrates duplicates and missing values; products demonstrates
+localized currency and percentage conversion; sales demonstrates extraction
+and quality checks. sales_multipage.pdf demonstrates explicit table merging.
+
+SCOPE
+Personal portfolio project using synthetic data, not a prior client engagement.
+Digital bordered tables only. No scanned-document OCR or universal accuracy claim.

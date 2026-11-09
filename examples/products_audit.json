@@ -1,0 +1,135 @@
+{
+  "source_file": "products.pdf",
+  "source_sha256": "f9bc60c4b354647762b386952a507de0c4dbe90c7cc7b5b5b233e7b6d6e5000e",
+  "source_location": "Page 1, table 1",
+  "operations": {
+    "trim": true,
+    "drop_duplicates": true,
+    "drop_empty": false,
+    "numeric_columns": [
+      "Price EUR",
+      "Discount"
+    ],
+    "locale": "Italian",
+    "selected_columns": [
+      "SKU",
+      "Product",
+      "Price EUR",
+      "Discount"
+    ],
+    "percent_rule": "12,5% -> 0.125",
+    "duplicate_rule": "All columns, before column selection"
+  },
+  "before": {
+    "rows": 3,
+    "columns": 4,
+    "duplicate_rows": 0,
+    "missing_cells": 0,
+    "column_profile": [
+      {
+        "column": "SKU",
+        "missing": 0,
+        "unique_nonempty": 3,
+        "numeric_count": 3,
+        "min": 1.0,
+        "max": 3.0,
+        "mean": 2.0,
+        "sum": 6.0
+      },
+      {
+        "column": "Product",
+        "missing": 0,
+        "unique_nonempty": 3,
+        "numeric_count": 0
+      },
+      {
+        "column": "Price EUR",
+        "missing": 0,
+        "unique_nonempty": 3,
+        "numeric_count": 0
+      },
+      {
+        "column": "Discount",
+        "missing": 0,
+        "unique_nonempty": 3,
+        "numeric_count": 0
+      }
+    ]
+  },
+  "after": {
+    "rows": 3,
+    "columns": 4,
+    "duplicate_rows": 0,
+    "missing_cells": 0,
+    "column_profile": [
+      {
+        "column": "SKU",
+        "missing": 0,
+        "unique_nonempty": 3,
+        "numeric_count": 3,
+        "min": 1.0,
+        "max": 3.0,
+        "mean": 2.0,
+        "sum": 6.0
+      },
+      {
+        "column": "Product",
+        "missing": 0,
+        "unique_nonempty": 3,
+        "numeric_count": 0
+      },
+      {
+        "column": "Price EUR",
+        "missing": 0,
+        "unique_nonempty": 3,
+        "numeric_count": 3,
+        "min": 75.9,
+        "max": 1250.5,
+        "mean": 525.4666666666667,
+        "sum": 1576.4
+      },
+      {
+        "column": "Discount",
+        "missing": 0,
+        "unique_nonempty": 3,
+        "numeric_count": 3,
+        "min": 0.0,
+        "max": 0.125,
+        "mean": 0.075,
+        "sum": 0.225
+      }
+    ]
+  },
+  "notes": [
+    "PDF extraction requires comparison with source.",
+    "Invalid numeric values remain text and are listed in Conversion issues.",
+    "Percentages are decimal fractions. Numeric columns are selected explicitly.",
+    "Statistics use converted values and do not infer meaning of identifiers.",
+    "Source row is the extracted data row within the source table, not a physical PDF line."
+  ],
+  "conversion_issues": [],
+  "provenance": [
+    {
+      "source_file": "products.pdf",
+      "sha256": "f9bc60c4b354647762b386952a507de0c4dbe90c7cc7b5b5b233e7b6d6e5000e",
+      "location": "Page 1, table 1",
+      "source_data_row": 1,
+      "output_data_row": 1
+    },
+    {
+      "source_file": "products.pdf",
+      "sha256": "f9bc60c4b354647762b386952a507de0c4dbe90c7cc7b5b5b233e7b6d6e5000e",
+      "location": "Page 1, table 1",
+      "source_data_row": 2,
+      "output_data_row": 2
+    },
+    {
+      "source_file": "products.pdf",
+      "sha256": "f9bc60c4b354647762b386952a507de0c4dbe90c7cc7b5b5b233e7b6d6e5000e",
+      "location": "Page 1, table 1",
+      "source_data_row": 3,
+      "output_data_row": 3
+    }
+  ],
+  "repeated_headers_removed": 0
+}
